@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+/* HEADER */
+.title {
+    font-size: 16px;
+    font-family: 'PT Serif';
+    margin: 75px 150px;
+}
+
+.who-we-are {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 75px;
+    margin-right: 300px;
+    width: 300px;
+    font-family: 'Poppins';
+}
+
+.who-we-are h2 {
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+/* TEAM IMAGES */
+
+/* TEAMMATE ONE*/
+
+.teammate-one {
+    margin-top: 100px;
+    margin-left: 145px;
+    position: absolute;
+}
+
+.teammate-one h3 {
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.teammate-one img {
+    height: 365px;
+}
+
+.teammate-one p{
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 65px;
+    top: 0;
+    width: 150px;
+    transform: rotate(90deg);
+    font-family: 'PT Serif';
+}
+
+/* TEAMMATE TWO */
+
+.teammate-two {
+    margin-top: 200px;
+    margin-left: 550px;
+    position: absolute;
+}
+
+.teammate-two h3 {
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.teammate-two img {
+    height: 350px;
+}
+
+.teammate-two p{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 67px;
+    top: 0;
+    width: 150px;
+    transform: rotate(90deg);
+    font-family: 'PT Serif';
+}
+
+/* TEAMMATE THREE*/
+
+.teammate-three {
+    margin-top: 100px;
+    margin-left: 950px;
+    position: absolute;
+}
+
+.teammate-three h3 {
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.teammate-three img {
+    height: 350px;
+}
+
+.teammate-three p{
+    position: absolute;
+    margin-left: 185px;
+    margin-top: 67px;
+    top: 0;
+    width: 150px;
+    transform: rotate(90deg);
+    font-family: 'PT Serif';
+}
+
+/* TEAMMATE FOUR */
+
+.teammate-four {
+    margin-top: 600px;
+    margin-left: 145px;
+    position: absolute;
+}
+
+.teammate-four h3 {
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.teammate-four img {
+    height: 365px;
+}
+
+.teammate-four p{
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 65px;
+    top: 0;
+    width: 150px;
+    transform: rotate(90deg);
+    font-family: 'PT Serif';
+}
+
+/* TEAMMATE FIVE */
+
+.teammate-five {
+    margin-top: 700px;
+    margin-left: 550px;
+    position: absolute;
+}
+
+.teammate-five h3 {
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.teammate-five img {
+    height: 365px;
+}
+
+.teammate-five p{
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 65px;
+    top: 0;
+    width: 150px;
+    transform: rotate(90deg);
+    font-family: 'PT Serif';
+}
+
+/* TEAMMATE SIX */
+
+.teammate-six {
+    margin-top: 600px;
+    margin-left: 950px;
+    position: absolute;
+}
+
+.teammate-six h3 {
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.teammate-six img {
+    height: 365px;
+}
+
+.teammate-six p{
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 65px;
+    top: 0;
+    width: 150px;
+    transform: rotate(90deg);
+    font-family: 'PT Serif';
+}
+
+/* FOOTER */
+
+footer div{
+    position: absolute;
+    bottom: 0;
+    top: 1490px;
+    left: 470px;
+    color: #979797;
+    font-family: 'Montserrat';
+}
+
+@media (max-width: 1024px) {
+    .title {
+        margin: 75px 100px;
+    }
+    .who-we-are {
+        margin-right: 100px;
+    }
+
+    .teammate-one {
+        margin-left: 80px;
+    }
+
+    .teammate-two {
+        margin-left: 425px;
+    }
+
+    .teammate-three {
+        margin-left: 740px;
+    }
+
+    .teammate-four {
+        margin-left: 75px;
+    }
+
+    .teammate-five {
+        margin-top: 700px;
+        margin-left: 410px;
+    }
+
+    .teammate-six {
+        margin-left: 720px;
+    }
+
+    footer div {
+        left: 300px;
+    }
+}
+
+@media (max-width: 768px){
+    .title {
+        margin: 75px 70px;
+    }
+
+    .who-we-are {
+        margin: 75px ;
+    }
+
+    .teammate-three {
+        margin-left: 80px;
+        margin-top: 600px;
+    }
+
+    .teammate-four {
+        margin-left: 425px;
+        margin-top: 700px;
+    }
+
+    .teammate-five {
+        margin-left: 80px;
+        margin-top: 1115px;
+    }
+
+    .teammate-six {
+        margin-left: 425px;
+        margin-top: 1215px;
+    }
+
+    footer div {
+        top: 1900px;
+        left: 155px;
+    }
+}
+
+@media (max-width: 425px){
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .who-we-are {
+        margin: 250px 50px;
+    }
+
+    /* TEAMMATE ONE AND TWO */
+
+    .teammate-one {
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+
+    .teammate-one img {
+        height: 250px;
+    }
+
+    .teammate-one p {
+        margin-left: 113px;
+    }
+
+    .teammate-two {
+        margin-top: 220px;
+        margin-left: 230px;
+    }
+
+    .teammate-two img {
+        height: 250px;
+    }
+
+    .teammate-two p {
+        margin-left: 113px;
+    }
+
+    /* TEAMMATE THREE AND FOUR */
+
+    .teammate-three {
+        margin-top: 510px;
+        margin-left: 20px;
+    }
+
+    .teammate-three img {
+        height: 250px;
+    }
+
+    .teammate-three p {
+        margin-left: 113px;
+    }
+
+    .teammate-four {
+        margin-top: 580px;
+        margin-left: 230px;
+    }
+
+    .teammate-four img {
+        height: 250px;
+    }
+
+    .teammate-four p {
+        margin-left: 113px;
+    }
+
+    /* TEAMMATE FIVE AND SIX */
+
+    .teammate-five {
+        margin-top: 865px;
+        margin-left: 20px;
+    }
+
+    .teammate-five img {
+        height: 250px;
+    }
+
+    .teammate-five p {
+        margin-left: 113px;
+    }
+
+    .teammate-six {
+        margin-top: 936px;
+        margin-left: 230px;
+    }
+
+    .teammate-six img {
+        height: 250px;
+    }
+
+    .teammate-six p {
+        margin-left: 113px;
+    }
+
+    /* FOOTER */
+
+    footer div {
+        top: 1600px;
+        width: 300px;
+        left: 80px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .title {
+        font-size: 18px;
+    }
+
+    .who-we-are {
+        margin: 200px 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        font-size: 18px;
+    }
+
+    .who-we-are {
+        margin: 240px -50px;
+    }
+}
